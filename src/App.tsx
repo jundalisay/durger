@@ -206,19 +206,12 @@ function App() {
                         <div className="flex flex-col bg-white pt-4 pr-8 pb-8 pl-8 gap-4 rounded-t-3xl rounded-b-xl shadow-custom-white">
                             <div>
                                 <h2 className="headline">
-                                    Telegram Mini App Demo
+                                    CommuniTON Pantry Demo
                                 </h2>
                             </div>
                             <div>
                                 <p className="text-customGrayText mt-0 mr-0 mb-4 ml-0">
-                                    Click on the button below and follow the
-                                    instructions to link your wallet to this
-                                    telegram mini app demo.
-                                </p>
-                                <p className="text-customGrayText mt-0 mr-0 mb-4 ml-0">
-                                    Softstack is a Web3 software development,
-                                    cybersecurity and consulting service
-                                    partner.
+                                    Click on the button below and follow the instructions to link your wallet.
                                 </p>
                             </div>
                         </div>
@@ -279,7 +272,7 @@ function App() {
                         <BackButton goBack={goBack} />
                         <Avatar src={avatarTable} />
                         <div className="flex flex-col bg-white pt-4 px-8 pb-2 min-h-fit gap-2 rounded-t-3xl rounded-b-xl shadow-custom-white">
-                            <h2 className="headline">HORRAY!</h2>
+                            <h2 className="headline">Welcome to CommuniTON Pantry!</h2>
                             <div className="text-xs break-all font-semibold text-center text-customGrayAddress">
                                 <p className="my-0 mx-auto">{account}</p>
                             </div>
@@ -371,11 +364,7 @@ function App() {
                                 />
                             </div>
                             {signedMessage && (
-                                <div
-                                    style={{
-                                        color: 'black',
-                                    }}
-                                >
+                                <div style={{color: 'black',}}>
                                     <p>Signed Message:</p>
                                     <p className="my-0 mx-auto text-xs break-all text-center text-wrap">
                                         {signedMessage}

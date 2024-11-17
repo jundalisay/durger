@@ -2,7 +2,7 @@ import { createWeb3Modal, defaultConfig } from '@web3modal/ethers/react';
 
 export const createWalletConnectModal = () => {
     // 1. Get projectId
-    const projectId = 'asdfasd';
+    const projectId = 'communiton-pantry';
     ///import.meta.env.VITE_WALLET_CONNECT_PROJECT_ID || '';
 
     // 2. Set chains
@@ -16,9 +16,9 @@ export const createWalletConnectModal = () => {
 
     // 3. Create a metadata object
     const metadata = {
-        name: 'TMA Proof of Concept',
-        description: 'Telegram Mini App Wallet Proof of Concept',
-        url: 'https://softstack.github.io/telegram-mini-app/', // origin must match your domain & subdomain
+        name: 'CommuniTON Pantry',
+        description: 'This implements Community Pantry in TON',
+        url: 'https://communitonpantry.pages.dev/', // origin must match your domain & subdomain
         icons: [''],
     };
 
